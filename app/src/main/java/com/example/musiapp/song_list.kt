@@ -52,7 +52,7 @@ class song_list : AppCompatActivity() {
             onBackPressed()
         }
         val retrofiBuilder = Retrofit.Builder()
-            .baseUrl("https://deezerdevs-deezer.p.rapidapi.com/")
+            .baseUrl("https://collect_the_api_from_rapidApi.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(apiInterface::class.java)
