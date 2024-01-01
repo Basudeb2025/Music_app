@@ -51,7 +51,7 @@ class Home : Fragment() {
 //        rotate.interpolator = LinearInterpolator()
 //        rotate.start()
         val retrofiBuilder = Retrofit.Builder()
-            .baseUrl("https://deezerdevs-deezer.p.rapidapi.com/")
+            .baseUrl("https://collect_the_api_from_rapidAPi.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(apiInterface::class.java)
